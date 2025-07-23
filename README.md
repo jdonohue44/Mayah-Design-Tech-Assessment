@@ -1,13 +1,15 @@
 # Room Design Challenge
 
-**Purpose:** Assess candidate skills in React, full‑stack development with Java Spring Boot, systems thinking & scalability, and mentoring to production quality.
+Thank you for your interest in joining our team!
+
+This coding exercise is designed to assess your full-stack engineering skills, systems thinking, and your ability to build robust, scalable web applications. The core stack of this project is: (1) React JS frontent, (2) Java Sprint Boot backend server, (3) Docker build tools.
 
 ## Prerequisites
 - Java 11+
 - Docker & Docker Compose
 - Node.js & npm
 
-Verify:
+### Verify:
 ```
 java -version       # should report “11.x”
 mvn -version        # Apache Maven x.x.x
@@ -38,9 +40,8 @@ npm -v              # x.x.x
 
 ## Candidate Tasks
 1. **Implement Backend Logic** – complete the `RoomService` to correctly determine if furniture can fit in a room (with rotation).
-2. **Build Frontend** – create form inputs for room/furniture dimensions, call the backend endpoint, and display results.
-3. **Design Questions** – answer prompts in `design/system-design-template.md`.
-4. **Testing & CI/CD** – describe your approach to testing and rolling out changes in a production pipeline.
+2. **Build Frontend** – create form inputs for room/furniture dimensions, call the backend endpoint, and display results. *Show your expertise in React and make something that looks nice here.*
+3. **System Design Questions** – answer the system design questions in `design/system-design-template.md`.
 
 ## Submission
 - Fork this repo and push your changes.
