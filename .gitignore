@@ -1,0 +1,33 @@
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
+
+# IntelliJ / VS Code / Eclipse
+*.idea/
+*.vscode/
+*.classpath
+*.project
+*.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js / React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/public/static/
+
+# Root
+node_modules/
+package-lock.json
+
+# System design drafts or temp files
+system-design/*template*.md
+

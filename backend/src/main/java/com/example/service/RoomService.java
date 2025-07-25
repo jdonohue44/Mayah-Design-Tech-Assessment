@@ -1,13 +1,13 @@
 package com.example.service;
 
-import org.springframework.stereotype.Service;
+import com.example.model.FurnitureItem;
+import com.example.model.RoomDesignRequest;
+import com.example.model.RoomDesignResponse;
 
-@Service
-public class RoomService {
-    public boolean canFit(double roomWidth, double roomLength,
-                          double furnitureWidth, double furnitureLength) {
-        // TODO: implement rotation logic
-        return (furnitureWidth <= roomWidth && furnitureLength <= roomLength)
-            || (furnitureLength <= roomWidth && furnitureWidth <= roomLength);
-    }
+import java.util.List;
+
+public interface RoomService {
+    boolean canFit(double roomWidth, double roomLength, double furnitureWidth, double furnitureLength);
+    RoomDesignResponse designRoomLayout(RoomDesignRequest request);
+    List<FurnitureItem> getFurnitureCatalog();
 }
