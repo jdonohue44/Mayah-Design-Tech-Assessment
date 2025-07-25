@@ -50,7 +50,7 @@ The API will be available at: [http://localhost:8080/api](http://localhost:8080/
 
 ---
 
-## Candidate Tasks
+## Candidate Tasks to Complete
 
 1. **Implement Backend Logic**  
    Complete the `RoomService` to return furniture items that fit within a given room. Given a room and its dimensions, the service should calculate which furniture objects can fit inside — accounting for the space already occupied by any selected items (e.g. sofa, coffee table, side table).
@@ -59,7 +59,7 @@ The API will be available at: [http://localhost:8080/api](http://localhost:8080/
    Create an elegant user interface to display selected furniture in a room. Demonstrate best practices in React component design, state management, and styling.
 
 3. **System Design Questions**
-   Answer the system design questions in `design/system-design-template.md`.
+   Answer the system design questions in `system-design/system-design-questions.md`.
 
 ---
 
